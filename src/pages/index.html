@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@@include('../partials/head.html')
+
+<body class="page__body">
+  <div class="main-wrapper">
+    @@include('../components/Header/index.html')
+    <main class="main">
+      <h1>What is the date XYI</h1>
+      <picture>
+        <source srcset="img/cover.avif" type="image/avif">
+        <source srcset="img/cover.webp" type="image/webp">
+        <img loading="lazy" src="img/cover.jpg" class="image" width="300" height="300" alt="XYI">
+      </picture>
+    </main>
+
+    @@include('../components/Footer/index.html')
+  </div>
+</body>
+
+@@include('../partials/includes.html')
+
+</html>
