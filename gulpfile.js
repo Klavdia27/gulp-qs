@@ -22,8 +22,8 @@ const server = () => {
 
 // TASK WATCHER
 const watcher = () => {
-  watch(path.html.watch, html).on('all', browserSync.stream)
-  watch(path.scss.watch, scss).on('all', browserSync.stream)
+  watch(path.html.watch, html).on('all', browserSync.reload)
+  watch(path.scss.watch, scss).on('all', browserSync.reload)
   watch(path.script.watch, script).on('all', browserSync.reload)
   watch(path.img.watch, img).on('all', browserSync.reload)
   watch(path.fonts.watch, fonts).on('all', browserSync.reload)
