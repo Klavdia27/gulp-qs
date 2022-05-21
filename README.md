@@ -2,6 +2,12 @@
 
 node 16+
 
-npm / gulp 
-npm i 
-npm start / run build 
+###Init
+npm i / install
+
+###Start
+npm start
+npm run build
+
+###Default includes
+Slick / jQuery 3.6.0
