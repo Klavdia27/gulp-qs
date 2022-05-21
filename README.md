@@ -2,7 +2,7 @@
 
 node 16+
 
-### Init
+### Install
 npm i / install
 
 ### Start
