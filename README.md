@@ -2,12 +2,12 @@
 
 node 16+
 
-###Init
+### Init
 npm i / install
 
-###Start
+### Start
 npm start
 npm run build
 
-###Default includes
+### Default includes
 Slick / jQuery 3.6.0
