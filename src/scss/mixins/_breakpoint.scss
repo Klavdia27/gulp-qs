@@ -1,31 +1,36 @@
 /* stylelint-disable */
 
-@mixin for-desktop {
-  @media (min-width: (1025px)) {
+// Small devices
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
     @content;
   }
 }
 
-@mixin big-desktop {
-  @media (max-width: (1440px)) {
+// Medium devices
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
     @content;
   }
 }
 
-@mixin tablet {
-  @media (max-width: (1024px)) {
+// Large devices
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
     @content;
   }
 }
 
-@mixin small-tablet {
-  @media (max-width: (768px)) {
+// Extra large devices
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
     @content;
   }
 }
 
-@mixin mobile {
-  @media (max-width: (576px)) {
+// Custom devices
+@mixin rwd($screen) {
+  @media (min-width: ($screen + 'px')) {
     @content;
   }
 }
